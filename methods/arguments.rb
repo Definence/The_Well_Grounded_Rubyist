@@ -39,6 +39,10 @@ def args_unleashed(a,b=1,*c,d,e)
 	p a,b,c,d,e
 end
 
+# not valid method
+# def broken_args(x,*y,z=1)
+# end
+
 # will result in error(wrong arguments number)
 # obj.one_arg(1,2,3)
 
