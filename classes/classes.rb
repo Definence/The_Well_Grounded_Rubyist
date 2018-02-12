@@ -21,6 +21,8 @@ class Ticket
 
 end
 
+# Also you can create a class with a commant like this
+# my_class = Class.new
 
 ticket = Ticket.new
 puts ticket.event
