@@ -5,6 +5,9 @@ puts
 # A typical class consists of a collection of method definitions. Classes usually exist for the purpose of
 # bei	ng instantiated—that is, of having objects created that are instances of the class.
 
+# class is a subclass of
+# the Module class, so every class object is also a module object
+
 class Ticket
 
 	def event
