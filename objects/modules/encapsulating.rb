@@ -24,6 +24,9 @@ module Stacklike
 
 end
 
+# As you’ve seen, modules don’t have instances, so you can’t do this
+# s.Stacklike.new
+
 
 
 puts
