@@ -40,5 +40,17 @@ else
 end
 
 
+if some_condition
+  nested_condition ? nested_something : nested_something_else
+else
+  something_else
+end
+
+
+# do_something if some_condition
+
+# some_condition and do_something
+
+
 
 puts
