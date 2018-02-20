@@ -9,14 +9,17 @@ puts
 
 puts
 
+# self gt
 class Integer
   def my_times
     c = 0
+    # self - це 7
     until c == self
+      # ретурнить ітератор з атрибутом тайм
       yield(c)
       c += 1
     end
-    self
+    # self
   end
 end
 
@@ -30,7 +33,7 @@ end
 #   end
 # end
 
-4.my_times {|i| puts "I'm on iteration #{i}!" }
+7.my_times {|i| puts "I'm on iteration #{i}!" }
 
 
 
