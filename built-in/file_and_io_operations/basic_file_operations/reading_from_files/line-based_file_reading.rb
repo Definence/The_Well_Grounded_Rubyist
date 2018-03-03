@@ -2,7 +2,7 @@ puts
 
 
 
-filename = File.join(File.dirname(__FILE__), 'sample.rb')
+filename = File.join(File.dirname(__FILE__), '../data/sample.rb')
 file = File.open(filename)
 
 # print "File's reading: "

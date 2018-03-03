@@ -2,7 +2,7 @@ puts
 
 
 
-f = File.new("sample.rb")
+f = File.new("../data/sample.rb")
 # f.read
 
 print "Gets: "

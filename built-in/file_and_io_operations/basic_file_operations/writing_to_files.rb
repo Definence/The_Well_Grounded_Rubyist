@@ -11,18 +11,19 @@ puts
   # already there. If the file doesn’t exist yet, opening it in append mode creates it.
 
 # will create file if not exists
-p f = File.new("data.out", "w")
+p f = File.new("data/data.out", "w")
 # will add to the data.out a string
 f.puts "David A. Black, Rubyist"
 f.close
 
-puts File.read("data.out")
+puts File.read("data/data.out")
 
-p f = File.new("data.out", "a")
+p f = File.new("data/data.out", "a")
+# f.print is also available
 f.puts "Yukihiro Matsumoto, Ruby creator"
 f.close
 
-puts File.read("data.out")
+puts File.read("data/data.out")
 
 
 

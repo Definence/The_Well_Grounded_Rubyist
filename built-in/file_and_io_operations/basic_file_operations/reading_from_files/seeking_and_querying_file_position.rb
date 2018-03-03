@@ -5,7 +5,7 @@ puts
 # The File object has a sense of where in the file it has left off reading. You can both read and change
 # this internal pointer explicitly, using the File object’s pos (position) attribute and/or the seekmethod.
 
-f = File.new("sample.rb")
+f = File.new("../data/sample.rb")
 
 # will go to the very beginning
 f.rewind
